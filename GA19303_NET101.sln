@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GA19303_Bai1", "GA19309_Bai1\GA19303_Bai1.csproj", "{FADCC4C8-6975-44B2-9D5F-54717820C584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TongHop_Bai1", "TongHop_Bai1\TongHop_Bai1.csproj", "{FA94D4E5-6280-483D-89D0-4383F8EF8CC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FADCC4C8-6975-44B2-9D5F-54717820C584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADCC4C8-6975-44B2-9D5F-54717820C584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADCC4C8-6975-44B2-9D5F-54717820C584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADCC4C8-6975-44B2-9D5F-54717820C584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA94D4E5-6280-483D-89D0-4383F8EF8CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA94D4E5-6280-483D-89D0-4383F8EF8CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA94D4E5-6280-483D-89D0-4383F8EF8CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA94D4E5-6280-483D-89D0-4383F8EF8CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E0586A2-2E94-4FF2-8BE5-4938B7CBA7B1}
+	EndGlobalSection
+EndGlobal
