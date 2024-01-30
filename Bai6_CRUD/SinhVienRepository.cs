@@ -167,5 +167,23 @@ namespace Bai6_CRUD
             Console.WriteLine("Sắp xếp thành công");
         }
         #endregion
+
+        #region Kế thừa
+        public void KeThua()
+        {
+            List<SinhVienGA> lstSVGA;
+            lstSVGA = new List<SinhVienGA>()
+            {
+                new SinhVienGA("1", "Văn A", 19, 10, 10),
+                new SinhVienGA("2", "Văn B", 18, 7, 9),
+                new SinhVienGA("3", "Văn C", 20, 8, 6),
+                new SinhVienGA("4", "Văn D", 19, 4, 7),
+            };
+            foreach (var svienga in lstSVGA)
+            {
+                svienga.InThongTin();
+            }
+        }
+        #endregion
     }
 }

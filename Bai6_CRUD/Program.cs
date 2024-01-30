@@ -29,6 +29,7 @@ namespace Bai6_CRUD
                 Console.WriteLine("5. Tìm theo mã");
                 Console.WriteLine("6. XS tăng dần");
                 Console.WriteLine("7. XS giảm dần");
+                Console.WriteLine("9. Kế thừa");
                 Console.WriteLine("8. Thoát");
                 Console.WriteLine("Xin mời nhập lựa chọn");
                 luachon = int.Parse(Console.ReadLine());
@@ -52,6 +53,8 @@ namespace Bai6_CRUD
                         break;
                     case 7:
                         repos.SortDanhSachASC();
+                        break;
+                    case 9:
                         break;
                     default:
                         Console.WriteLine("ko có trong menu");
